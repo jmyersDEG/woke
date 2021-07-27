@@ -31,6 +31,7 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
+//This is a test comment to mess with git.
 func main() {
 	log.Logger = log.Output(zerolog.ConsoleWriter{Out: colorable.NewColorableStdout(), TimeFormat: time.RFC3339})
 	zerolog.SetGlobalLevel(zerolog.InfoLevel)
